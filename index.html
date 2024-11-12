@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <title>Калькулятор</title>
+        <meta name="Author" content="Akatsi">
+        <script src="app.js"></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <fieldset id="container">
+                <form name="calculator">
+        
+        <p align="center">
+        <input id="display" type="text" name="display" readonly>
+
+    </p>
+
+        <div id="operator_btns">
+            <p align="center">
+             <input class="button digits" type="button" value="+">
+             <input class="button digits" type="button" value="-">
+             <input class="button digits" type="button" value="*">
+             <input class="button digits" type="button" value="/">
+            <br>
+             <input class="button digits" type="button" value="1">
+             <input class="button digits" type="button" value="2">
+            <input class="button digits" type="button" value="3">
+            <br>
+             <input class="button digits" type="button" value="4">
+             <input class="button digits" type="button" value="5">
+            <input class="button digits" type="button" value="6">
+            <br>
+             <input class="button digits" type="button" value="7">
+            <input class="button digits" type="button" value="8">
+             <input class="button digits" type="button" value="9">
+            <br>
+             <input class="button digits" type="button" value="0">
+            <br/>
+        </div>
+        </p>
+        </div>
+        <p align="center">
+        <input id="num2" />
+    </p>
+        <hr>
+        <p align="center">
+        <button onclick="func()">Посчитать</button>
+    </p>
+
+        <p id="result"></p>
+
+
+        
+    </body>
+</html>
